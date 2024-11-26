@@ -11,7 +11,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import math
 import random
-import numpy
+import numpy as np
 from autoattack.other_utils import L0_norm, L1_norm, L2_norm
 from autoattack.checks import check_zero_gradients
 
